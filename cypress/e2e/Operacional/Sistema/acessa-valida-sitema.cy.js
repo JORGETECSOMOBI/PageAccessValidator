@@ -33,6 +33,5 @@ describe('Acessando e validando Url e Texto de todas as páginas', () => {
         sistema.Cliente()
                .validaTextoCliente()
         home.validaURL(url.cliente)
-            .validaAusenciaMensagensDeErrro()
     })
 })

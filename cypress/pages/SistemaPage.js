@@ -8,6 +8,7 @@ class SistemaPage {
         home
             .sistema()
             .idiomaPortugues()
+
     }
 
     usuario() {

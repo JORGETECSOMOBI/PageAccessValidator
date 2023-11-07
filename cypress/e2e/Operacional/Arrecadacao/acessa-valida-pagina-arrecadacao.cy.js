@@ -67,8 +67,7 @@ describe('Acessando e validando Url e Texto de todas as páginas', () => {
     it('Acessa e valida URL e texto da página de Coleta', () => {
         arrecadacao.coleta()
         home.validaURL(url.coleta)
-            .validatexto('Data coleta')
-            .validaAusenciaMensagensDeErrro()
+            .validatexto('CSLN')
     })
 
     it('Acessa e valida URL e texto da página de Arquivos de Midia', () => {

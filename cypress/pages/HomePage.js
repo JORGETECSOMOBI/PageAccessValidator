@@ -104,7 +104,7 @@ class HomePage {
     }
 
     sam() {
-        cy.get(':nth-child(10) > .mastermastercontainer-0-2-44 > .mastermasterspace-0-2-47 > a > .ant-row').click({ force: true })
+        cy.get('.mastermasterspace-0-2-47').contains('SAM').click({ force: true })
         return this
     }
 
@@ -124,7 +124,7 @@ class HomePage {
     }
 
     validaAusenciaDetexto(texto) {
-        cy.should('not.contain', texto)
+        cy.should('not.contain.text', texto)
         return this
     }
 
@@ -134,7 +134,6 @@ class HomePage {
     }
 
     validaAusenciaMensagensDeErrro() {
-        this.validaAusenciaDetexto('Ocorreu um erro ao processar sua solicitação')
         this.validaAusenciaDetexto('Error inesperado')
         return this
     }

@@ -11,7 +11,7 @@ class FacialPage {
     }
 
     audit() {
-        cy.contains('Audit').click({ force: true })
+        cy.contains('Captura de perfil').click({ force: true })
         return this
     }
 

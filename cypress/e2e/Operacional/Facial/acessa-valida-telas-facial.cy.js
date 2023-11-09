@@ -8,10 +8,10 @@ describe('Acessando e validando Url e Texto de todas as páginas', () => {
         facial.beforeFacial()
     })
 
-    it('Acessa e valida URL e texto da página de Audit', () => {
+    it('Acessa e valida URL e texto da página de Captura de perfil', () => {
         facial.audit()
         home.validaURL(url.audit)
-            .validatexto('Audit')
+            .validatexto('Captura de perfil')
             .validaAusenciaMensagensDeErrro()
     })
 

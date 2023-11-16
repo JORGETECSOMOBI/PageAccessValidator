@@ -11,7 +11,7 @@ describe('Acessando e validando Url e Texto de todas as páginas', () => {
     it('Acessa e valida URL e texto da página de Captura de perfil', () => {
         facial.audit()
         home.validaURL(url.audit)
-            .validatexto('Captura de perfil')
+            .validatexto('Auditoria')
             .validaAusenciaMensagensDeErrro()
     })
 

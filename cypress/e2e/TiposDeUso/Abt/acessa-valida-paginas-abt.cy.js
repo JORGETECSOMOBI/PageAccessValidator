@@ -2,7 +2,7 @@ import url from '../../../fixtures/urlAbt.json'
 import abt from '../../../pages/AbtPage'
 import home from '../../../pages/HomePage'
 
-describe('Acessando e validando Url e Texto de todas as páginas', () => {
+describe('Acessando e validando Url e Texto de todas as páginas de ABT', () => {
 
     beforeEach(() => {
         abt.beforeAbt()

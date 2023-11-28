@@ -2,7 +2,7 @@ import avl from '../../../pages/AvlPage'
 import url from '../../../fixtures/url.Avl.json'
 import home from '../../../pages/HomePage'
 
-describe('Acessando e validando Url e Texto de todas as páginas', () => {
+describe('Acessando e validando Url e Texto de todas as páginas AVL', () => {
 
     beforeEach(() => {
         avl.beforeAvl()

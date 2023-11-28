@@ -2,7 +2,7 @@ import facial from '../../../pages/FacialPage'
 import url from '../../../fixtures/urlFacial.json'
 import home from '../../../pages/HomePage'
 
-describe('Acessando e validando Url e Texto de todas as páginas', () => {
+describe('Acessando e validando Url e Texto de todas as páginas de Facial', () => {
 
     beforeEach(() => {
         facial.beforeFacial()

@@ -2,7 +2,7 @@ import dispositivos from '../../../pages/DispositivoPages'
 import url from '../../../fixtures/urlDispositivos.json'
 import home from '../../../pages/HomePage'
 
-describe('Acessando e validando Url e Texto de todas as páginas', () => {
+describe('Acessando e validando Url e Texto de todas as páginas de Dispositivos', () => {
 
     beforeEach(() => {
         dispositivos.beforeDispositivos()

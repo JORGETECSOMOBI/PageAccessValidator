@@ -124,7 +124,7 @@ class HomePage {
     }
 
     validaAusenciaDetexto(texto) {
-        cy.should('not.contain.text', texto)
+        cy.get('.masterspacerContent-0-2-13').should('not.contain.text', texto)
         return this
     }
 

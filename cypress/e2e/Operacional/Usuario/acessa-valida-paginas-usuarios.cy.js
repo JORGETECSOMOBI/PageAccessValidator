@@ -2,7 +2,7 @@ import usuario from '../../../pages/UsuarioPage'
 import url from '../../../fixtures/urlUsuarios.json'
 import home from '../../../pages/HomePage'
 
-describe('Acessando e validando Url e Texto de todas as páginas', () => {
+describe('Acessando e validando Url e Texto de todas as páginas de Usuários', () => {
 
     beforeEach(() => {
         usuario.beforeUsuario()

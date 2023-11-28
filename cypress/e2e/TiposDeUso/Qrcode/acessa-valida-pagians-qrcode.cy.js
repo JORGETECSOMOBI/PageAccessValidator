@@ -2,7 +2,7 @@ import url from '../../../fixtures/urlQrcode.json'
 import qrcode from '../../../pages/QrcodePage'
 import home from '../../../pages/HomePage'
 
-describe('Acessando e validando Url e Texto de todas as páginas', () => {
+describe('Acessando e validando Url e Texto de todas as páginas de QrCode', () => {
 
     beforeEach(() => {
         qrcode.beforeQrcode()

@@ -2,7 +2,7 @@ import sistema from '../../../pages/SistemaPage'
 import url from '../../../fixtures/urlSistema.json'
 import home from '../../../pages/HomePage'
 
-describe('Acessando e validando Url e Texto de todas as páginas', () => {
+describe('Acessando e validando Url e Texto de todas as páginas de Sistema', () => {
 
     beforeEach(() => {
         sistema.beforeSistema()

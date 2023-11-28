@@ -2,7 +2,7 @@ import arrecadacao from '../../../pages/ArrecadacaoPage'
 import url from '../../../fixtures/urlArredacao.json'
 import home from '../../../pages/HomePage'
 
-describe('Acessando e validando Url e Texto de todas as páginas', () => {
+describe('Acessando e validando Url e Texto de todas as páginas de Arrecadação', () => {
 
     beforeEach(() => {
         arrecadacao.beforeArrecadacao()

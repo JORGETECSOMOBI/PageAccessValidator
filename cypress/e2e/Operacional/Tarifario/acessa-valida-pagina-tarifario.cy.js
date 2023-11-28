@@ -2,7 +2,7 @@ import tarifario from '../../../pages/TarifarioPage'
 import url from '../../../fixtures/urlTarifario.json'
 import home from '../../../pages/HomePage'
 
-describe('Acessando e validando Url e Texto de todas as páginas', () => {
+describe('Acessando e validando Url e Texto de todas as páginas de Tarifário', () => {
 
     beforeEach(() => {
         tarifario.beforeTarifario()

@@ -2,7 +2,7 @@ import comercializacao from '../../../pages/ComercializacaoPage'
 import url from '../../../fixtures/urlComercializacao.json'
 import home from '../../../pages/HomePage'
 
-describe('Acessando e validando Url e Texto de todas as páginas', () => {
+describe('Acessando e validando Url e Texto de todas as páginas de comercialização', () => {
 
     beforeEach(() => {
         comercializacao.beforeComercializacao()
